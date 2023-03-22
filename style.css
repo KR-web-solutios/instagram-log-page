@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.login img{
+    width: 200px;
+    height: 50px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    box-shadow: 0 0 5px;
+}
+.login input{
+    width: 300px;
+    height: 20px;
+}
+.login button{
+    width: 300px;
+    background: #1e60f0;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px;
+}
+.login button:hover{
+    background:#ffffff;
+    color: #1e60f0;
+    border: 5px solid #1e60f0;
+}
+.login a{
+    text-decoration:none;
+    color: #000000;
+}
+.singup{
+    box-shadow: 0 0 5px;
+    width: 322px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.singup a{
+    text-decoration: none;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.link1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.link2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.link1 a,
+.link2 a{
+    text-decoration: none;
+    color: #000000;
+}
+@media screen and (max-width:320px) {
+    .login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+    }
+    .login input{
+        width: 70vw;
+    }
+    .login button{
+        width: 70vw;
+    }
+    .singup{
+        width:82vw;
+        padding: 5px;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+    }
+    .link1,
+    .link2{
+        display:none;
+    }  
+    p{
+        padding: 10px;
+        font-size: 20px;
+    } 
+}
+@media screen and (min-width:320px) and (max-width:375px){
+    .login input{
+        width: 75vw;
+    }
+    .login button{
+        width: 75vw;
+    }
+    .login input{
+        width: 75vw;
+    }
+    .login button{
+        width: 75vw;
+    }
+    .singup{
+        width: 82vw;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:375px) and (max-width:425px){
+    .login input{
+        width: 75vw;
+    }
+    .login button{
+        width: 75vw;
+    }
+    .singup{
+        width: 82vw;
+    }
+}
+@media screen and (min-width:425px) and (max-width:768px){
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+  .login input{
+    width: 400px;
+    height: 25px;
+  }
+  .login button{
+    width: 400px;
+  }
+  .singup{
+    width: 425px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+  .login input{
+    width: 400px;
+    height: 25px;
+  }
+  .login button{
+    width: 400px;
+  }
+  .singup{
+    width: 425px;
+  }
+}
